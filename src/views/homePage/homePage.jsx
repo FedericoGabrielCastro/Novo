@@ -7,9 +7,7 @@ const HomePage = () => {
     const [t] = useTranslation("homePage")
 
     return (
-        <Paper>
-            <p>{t("translations.test-title")}</p>
-        </Paper>
+        <div></div>
     )
 }
 

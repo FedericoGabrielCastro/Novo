@@ -8,7 +8,7 @@ export const useStyles = makeStyles(theme => ({
         alignItems: "flex-start",
         height: "100vh",
         width: "20%",
-        backgroundColor: theme.colors.blue,
+        backgroundColor: theme.colors.bgNav,
         gap: "10px"
     }
 }))

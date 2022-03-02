@@ -1,9 +1,10 @@
 export const colorsDark =  {
-    blue: "#337AB7",
+    bgNav: "#26262A",
     white: "#fff"
 }
 
 export const colorsLight =  {
-    blue: "#00aae4",
+    bgNav: "#CDCDCD",
     white: "#000"
+
 }

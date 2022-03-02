@@ -26,7 +26,7 @@ const SwitchTheme = () => {
     return (
         <div className={classes.swichThemeContent}>
             <FaSun className={classes.swichThemeIcon}/>
-            <Switch className={classes.swichTheme}
+            <Switch
                 onChange={handleSwitch}
                 color="primary"/>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
-import { useStyles } from './styles/switchThemeStyle';
 import { useTranslation } from 'react-i18next';
+import { useStyles } from './styles/switchLenguajes';
 import { Switch } from '@material-ui/core'
 
 const SwitchLenguaje = () => {
@@ -19,7 +19,7 @@ const SwitchLenguaje = () => {
     return (
         <div className={classes.swichThemeContent}>
             <h3 className={classes.titleLenguaje}>{t("translations.lenguaje")}</h3>
-            <Switch className={classes.swichTheme}
+            <Switch
                 onChange={handleSwitch}
                 color="primary"/>
         </div>

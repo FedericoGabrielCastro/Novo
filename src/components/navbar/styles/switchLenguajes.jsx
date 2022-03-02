@@ -9,9 +9,7 @@ export const useStyles = makeStyles(theme => ({
         alignItems: "center"
     },
 
-    swichThemeIcon: {
-        fontSize: "30px",
+    titleLenguaje: {
         color: theme.colors.white
-    },
-
+    },    
 }))
