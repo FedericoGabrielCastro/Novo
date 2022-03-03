@@ -23,7 +23,7 @@ const resources = {
 i18next
     .use(initReactI18next)
     .init({
-        debug: true,
+        debug: false,
         resources,
         lng: "es",
         interpolation: {

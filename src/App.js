@@ -12,7 +12,7 @@ const App = () => {
     const theme = useSelector(store => store.setThemeReducer)
 
     return (
-        <I18nextProvider i18n={i18next}>
+        <I18nextProvider i18n={i18next} data-testid="i18nTestID">
             <ThemeProvider theme={theme}>
                 <CustomRoutes />
             </ThemeProvider>

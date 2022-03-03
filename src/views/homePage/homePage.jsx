@@ -1,5 +1,4 @@
 import React from 'react'
-import { Paper } from '@material-ui/core';
 import { useTranslation } from 'react-i18next';
 
 const HomePage = () => {
@@ -7,7 +6,7 @@ const HomePage = () => {
     const [t] = useTranslation("homePage")
 
     return (
-        <div></div>
+        <div>home</div>
     )
 }
 

@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react'
+import React from 'react'
 import { useDispatch } from 'react-redux'
 import { useStyles } from './styles/switchThemeStyle';
 import { Switch } from '@material-ui/core'
@@ -27,6 +27,7 @@ const SwitchTheme = () => {
         <div className={classes.swichThemeContent}>
             <FaSun className={classes.swichThemeIcon}/>
             <Switch
+                data-testid="switch-theme"
                 onChange={handleSwitch}
                 color="primary"/>
         </div>
